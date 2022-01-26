@@ -1,3 +1,7 @@
+*{
+	font-family: arial;
+	font-size: 16px;
+}
 header{
     display: block;
     background-color: white;
@@ -27,22 +31,31 @@ header ul{
 header ul li{
     display: inline-block;
 }
-
+ /*DISEñO DEL MENU*/
 header ul li a{
     text-decoration: none;
+    /*
     border: solid;
-    border-color: #7D8471;
-    border-radius: 50px;
-    background-color: #7D8471;
-    color: white;
-    padding: 0.3em;
+    border-color: #4973c0;
+    background-color: #699bf7;
+    */
+    color: #699bf7;
+    padding: 1em;
 }
 
 header ul li a:hover{
-    background-color: #B8B799;
-    border-color: #B8B799;
+    color: white;
+    border-radius: 50px;
+    background-color: #2b416b;
+    border-color: #2b416b;
 }
 
-header ul li a:active{
-    padding: 0.2em;
+/*PIE DE PAGUINA*/
+footer{
+	display: flex;
+	justify-content:space-between;
+	max-width: 1100px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
