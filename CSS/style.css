@@ -2,6 +2,7 @@
 	font-family: arial;
 	font-size: 16px;
 }
+/*HEADER*/
 header{
     display: block;
     background-color: white;
@@ -45,9 +46,23 @@ header ul li a{
 
 header ul li a:hover{
     color: white;
-    border-radius: 50px;
     background-color: #2b416b;
     border-color: #2b416b;
+}
+
+/*BODY*/
+#welcome .bienvenida{
+    background-color: rgb(124, 179, 231);
+    padding-top: 100px;
+	padding-bottom: 50px;
+}
+#welcome  h1 p{
+    float: left;
+    width: 39%;
+}
+#welcome .imagen{
+    float: right;
+    width: 59%;
 }
 
 /*PIE DE PAGUINA*/
