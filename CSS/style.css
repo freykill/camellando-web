@@ -8,6 +8,12 @@
     clear: both;
 }
 /*HEADER*/
+header img{
+    transition: all .2s;
+}
+header img:hover{
+    transform: scale(1.04);
+}
 header{
     padding-top: 10px;
 	padding-bottom: 15px;
@@ -72,11 +78,15 @@ header ul li a:hover{
 	float: right;
 }
 .flotanteTexto{
-	width: 39%;
+	width: 35%;
     padding-top: 10%;
 }
 .flotanteImagen{
 	width: 59%;
+    transition: all .2s;
+}
+.flotanteImagen:hover{
+	transform: scale(1.004);
 }
 .contenido img{
 	width: 100%;
