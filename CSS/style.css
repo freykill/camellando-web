@@ -1,9 +1,16 @@
 *{
+	margin: 0px;
+	padding: 0px;
 	font-family: arial;
 	font-size: 16px;
 }
+.restaurar{
+    clear: both;
+}
 /*HEADER*/
 header{
+    padding-top: 10px;
+	padding-bottom: 15px;
     display: block;
     background-color: white;
     width:100%;
@@ -46,23 +53,42 @@ header ul li a{
 
 header ul li a:hover{
     color: white;
-    background-color: #2b416b;
-    border-color: #2b416b;
+    background-color: black;
 }
 
 /*BODY*/
-#welcome .bienvenida{
+#welcome {
     background-color: rgb(124, 179, 231);
-    padding-top: 100px;
-	padding-bottom: 50px;
+    padding-left: 10px;
 }
-#welcome  h1 p{
-    float: left;
-    width: 39%;
+.izquierda{
+	float: left;
 }
-#welcome .imagen{
-    float: right;
-    width: 59%;
+.derecha{
+	float: right;
+}
+.flotanteTexto{
+	width: 39%;
+    padding-top: 20%;
+}
+.flotanteImagen{
+	width: 59%;
+}
+.contenido img{
+	width: 100%;
+	height: auto;
+	border: 0;
+	position: relative;
+}
+.contenido h2{
+    color: white;
+	font-weight: bold;
+	font-size: 30px;
+}
+.contenido p{
+	font-size: 25px;
+	font-weight: 200;
+    text-align: justify;
 }
 
 /*PIE DE PAGUINA*/
