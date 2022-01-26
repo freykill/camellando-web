@@ -56,12 +56,14 @@ header ul li a:hover{
     background-color: black;
 }
 
-/*BODY*/
+/*BIENVENIDA*/
 #welcome .contenido{
     border-bottom: solid 3px #2b416b;
     border-top: solid 3px #2b416b;
     background-color: rgb(124, 179, 231);
-    padding-left: 10px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .izquierda{
 	float: left;
@@ -71,7 +73,7 @@ header ul li a:hover{
 }
 .flotanteTexto{
 	width: 39%;
-    padding-top: 20%;
+    padding-top: 10%;
 }
 .flotanteImagen{
 	width: 59%;
@@ -92,6 +94,7 @@ header ul li a:hover{
 	font-weight: 200;
     text-align: justify;
 }
+/*SERVICIOS*/
 
 /*PIE DE PAGUINA*/
 footer{
